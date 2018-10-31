@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="party" name="BOEmp" mainattr="EMP_ID" remark="自定员工表">
+    <mapingenty type="table">HUGAO_TEST_EMP</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="EMP_ID" maxlength="11" datatype="Long" type="PK">
+        <mapingcol datatype="NUMBER">EMP_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="EMP_NAME" maxlength="50" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">EMP_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="EMP_PHONE" maxlength="50" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">EMP_PHONE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="EMP_GENDER" maxlength="10" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">EMP_GENDER</mapingcol>
+      </attr>
+      <attr floatlength="0" name="EMP_ADDR" maxlength="50" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">EMP_ADDR</mapingcol>
+      </attr>
+      <attr floatlength="0" name="dept_id" maxlength="20" datatype="String" type="COL" remark="员工所属部门id">
+        <mapingcol>DEPT_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DEL_STATE" maxlength="10" datatype="Long" type="COL">
+        <mapingcol>DEL_STATE</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

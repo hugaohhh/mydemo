@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIDataSrc DisType="SelectBox" NeedCache="N">
+  <Name>DSEmp</Name>
+  <Package>bo.set</Package>
+  <DataSet SetType="STATIC">
+    <OptionList value="1" group="emp_gender">男</OptionList>
+    <OptionList value="0" group="emp_gender">女</OptionList>
+  </DataSet>
+</UIDataSrc>

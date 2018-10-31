@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTINFO>
+  <FieldTypeSet Name="SETEmp" BOName="com.asiainfo.sh.so.sf.hgEmp.bo.BOEmp" MainField="EMP_ID" Title="com.asiainfo.sh.so.sf.hgEmp.bo.BOEmp" ActBOName="com.asiainfo.sh.so.sf.hgEmp.bo.BOEmp" Package="com.asiainfo.sh.so.sf.hgEmp.bo.set">
+    <FieldList>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="0" IsEnabled="Y">
+        <Name>EMP_ADDR</Name>
+        <BOAttrName>EMP_ADDR</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EMP_ADDR</ID>
+        <Title>员工地址</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="com.asiainfo.sh.so.sf.hgEmp.bo.BOEmp" Attr="EMP_ADDR" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="0" IsEnabled="Y">
+        <Name>DEPT_ID</Name>
+        <BOAttrName>DEPT_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>DEPT_ID</ID>
+        <Title>员工所属部门id</Title>
+        <Authority>U</Authority>
+        <EditType>DBListBox</EditType>
+        <DataType MaxLength="20" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="com.asiainfo.sh.so.sf.hgEmp.bo.BOEmp" Attr="dept_id" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="1" IsEnabled="Y">
+        <Name>EMP_GENDER</Name>
+        <BOAttrName>EMP_GENDER</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EMP_GENDER</ID>
+        <Title>性别</Title>
+        <Authority>U</Authority>
+        <EditType>DBListBox</EditType>
+        <DataType MaxLength="10" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="com.asiainfo.sh.so.sf.hgEmp.bo.BOEmp" Attr="EMP_GENDER" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="2" IsEnabled="Y">
+        <Name>EMP_ID</Name>
+        <BOAttrName>EMP_ID</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EMP_ID</ID>
+        <Title>员工id</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="11" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>Y</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="com.asiainfo.sh.so.sf.hgEmp.bo.BOEmp" Attr="EMP_ID" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="3" IsEnabled="Y">
+        <Name>EMP_NAME</Name>
+        <BOAttrName>EMP_NAME</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EMP_NAME</ID>
+        <Title>员工姓名</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="com.asiainfo.sh.so.sf.hgEmp.bo.BOEmp" Attr="EMP_NAME" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="4" IsEnabled="Y">
+        <Name>EMP_PHONE</Name>
+        <BOAttrName>EMP_PHONE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>EMP_PHONE</ID>
+        <Title>员工电话</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="50" Decimal="0">String</DataType>
+        <IsNull>Y</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <ActBO Name="com.asiainfo.sh.so.sf.hgEmp.bo.BOEmp" Attr="EMP_PHONE" />
+      </Field>
+      <Field NewFormVisible="true" FormVisible="true" GridVisible="true" DisplaySeq="100" IsEnabled="Y">
+        <Name>DEL_STATE</Name>
+        <BOAttrName>DEL_STATE</BOAttrName>
+        <BODisplayAttrName />
+        <ID>DEL_STATE</ID>
+        <Title>员工状态</Title>
+        <Authority>U</Authority>
+        <EditType>DBEdit</EditType>
+        <DataType MaxLength="10" Decimal="0">Long</DataType>
+        <IsNull>N</IsNull>
+        <IsPk>N</IsPk>
+        <IDDataType MaxLength="0" Decimal="0" />
+        <DefaultValue />
+      </Field>
+    </FieldList>
+    <ChildFieldTypeSet />
+  </FieldTypeSet>
+</ROOTINFO>
